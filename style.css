@@ -60,7 +60,7 @@ section {
 .display-4 {
     text-shadow: -5px  5px; var (--laranja-claro)
 }
-#tropicalia{
+#tropicalia {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
@@ -68,4 +68,12 @@ section {
     background: url('img/flor.png') top right no-repeat,
        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
+    /*Ajuste o tamanho coonforme neceessário*/
+}
+#tropicalia.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
 }
