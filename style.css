@@ -12,7 +12,8 @@ body{
 
 /*Estilo do Cabeçalho*/
 
-header {
+header { 
+    background-color: #ffffff;
 }
 
 section {
